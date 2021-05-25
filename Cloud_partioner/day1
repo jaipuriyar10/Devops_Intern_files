@@ -4,9 +4,93 @@ Day1: Date:(24-05-2021)
 2:- Founded the required content for clearing the AWS cloud practioner exam.
 3:- Divided the learning modules of the AWS Certified Cloud Practitioner into different section daywise.
 4: Learned first section for AWS cloud practioner course(Fundamental Concepts) as:
+
 a- Introduction to Cloud Computing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--Cloud Computing is the delivery of computing services such as servers, storage, databases, networking, software, analytics, intelligence, and more, over the Cloud (Internet).
+  Cloud Computing provides an alternative to the on-premises datacentre. With an on-premises datacentre, we have to manage everything, such as purchasing and installing hardware,
+  virtualization, installing the operating system, and any other required applications, setting up the network, configuring the firewall, and setting up storage for data.
+  After doing all the set-up, we become responsible for maintaining it through its entire lifecycle.
+  
+There are three main service models of cloud computing – Infrastructure as a Service (IaaS), Platform as a Service (PaaS) and Software as a Service (SaaS).
+There are clear differences between the three and what they can offer a business in terms of storage and resource pooling, 
+but they can also interact with each other to form one comprehensive model of cloud computing.
+
+IaaS (Infrastructure as Service):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is the most common service model of cloud computing as it offers the fundamental infrastructure of virtual servers, network, operating systems and data storage drives.
+It allows for the flexibility, reliability and scalability that many businesses seek with the cloud, and removes the need for hardware in the office. 
+This makes it ideal for small and medium sized organisations looking for a cost-effective IT solution to support business growth.
+IaaS is a fully outsourced pay-for-use service and is available as a public, private or hybrid infrastructure.
+
+PaaS (Platform-as-a-Service):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is where cloud computing providers deploy the infrastructure and software framework, but businesses can develop and run their own applications.
+Web applications can be created quickly and easily via PaaS, and the service is flexible and robust enough to support them. 
+PaaS solutions are scalable and ideal for business environments where multiple developers are working on a single project.
+It is also handy for situations where an existing data source (such as CRM tool) needs to be leveraged.
+
+SaaS (Software as a Service):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This cloud computing solution involves the deployment of software over the internet to variousbusinesses who pay via subscription or a pay-per-use model. 
+It is a valuable tool for CRM and for applications that need a lot of web or mobile access – such as mobile sales management software.
+SaaS is managed from a central location so businesses don’t have to worry about maintaining it themselves, and is ideal for short-term projects.
+
+
 b- Business needs and cloud solution
+  
+Flexibility
+~~~~~~~~~~~
+In recent years, many businesses are realizing how Cloud Computing is so important to be applied to the work environment of today.
+Even in a recent survey conducted by KPMG to 500 executives, it was found that 42% of them think that flexible work is the main factor why they use Cloud Computing.
+It offers greater flexibility to your employees in their work practices. If you need access to your documents and data while you are off-site or at home, 
+you can interface with your virtual office, quickly and effortlessly whenever you need through any web-enable devices.
+
+
+Cost Savings and Investment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Perhaps, one of the most remarkable benefits of Cloud Computing is certainly considerable savings in company’s IT costs. 
+You do not need to spend for the purchase of inventory such as infrastructure and hard disk. You are only charged a low cost for regular compensation per month or once paid,
+according to the agreed service package with the Cloud Computing service provider. Thus, the royalty fees on automated software licenses are reduced, 
+because they all run with Cloud-based computing.
+
+Disaster Recovery
+~~~~~~~~~~~~~~~~~~
+No matter the size, every business should be investing in durable disaster recovery, but for smaller businesses that lack the required budget and skills,
+this is often more an ideal than the reality. Cloud is currently helping more businesses avoid that pattern. According to one study, small companies are twice as likely as
+bigger companies to have implemented cloud-based backup and recovery solutions that save time, keep away from large up-front investment and roll up third-party expertise as 
+part of the deal.
+
+Collaboration Efficiency
+~~~~~~~~~~~~~~~~~~~~~~~~
+Cloud Computing model enables your business to communicate and share more easily outside of the traditional methods. It allows better collaboration between employees, 
+enabling multiple users to share and work on data and files at the same time. Cloud makes it simple for the company’s design and construction experts, 
+who invest much of their time on job sites overseas or across various areas, to get work related information, documents and records quickly and in a secure way.
+
+Scalability
+~~~~~~~~~~~
+Another major benefit of cloud computing is its scalability. Cloud-based services are ideal for organizations with growing or fluctuating bandwidth demands. 
+Your business can scale up or scale down operation and the resource storage needs of your business may need quick adjustment to suit such variations, allowing flexibility as
+the needs change. If the needs increase, it’s easy to upsize your Cloud capacity, drawing on the service’s remote servers. Similarly, if you need to downsize again, 
+the flexibility is baked into the service. The best way to scale up your business is using Cloud ERP. It’s easier and complete system.
+
 c- Overview of AWS
-d- AWS cloud value proposition
+
+Amazon Web Services offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools,
+IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricing. From data warehousing to deployment tools, directories to content 
+delivery, over 175 AWS services are available. New services can be provisioned quickly, without the upfront capital expense. This allows enterprises, start-ups, 
+small and medium-sized businesses, and customers in the public sector to access the building blocks they need to respond quickly to changing business requirements.
+
+
+
+d- AWS cloud value proposition:
+Principle	Concepts
+Agility	: Speed of implementation of services Experimentation Innovation.
+
+Elasticity:Scale on demand Eliminate wasted capacity
+
+Flexibility:-Broad set of products,Low to no cost to entry
+
+Security:-Amazon has acquired many certifications,Shared responsibility model.
 
 
