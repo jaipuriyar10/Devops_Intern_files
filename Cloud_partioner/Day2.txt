@@ -1,0 +1,92 @@
+Day 2:(25-04-2021)
+
+Topics covered:
+
+Deployment models of Cloud:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a-Private Model:- Here services are owned by private company and not exposed to the public.They have Complete Control.Eg:HP data center,
+		  ,Ubuntu,Rackspace.
+b-Public Model:-Cloud resources owned and operated by third party cloud service provider delivered on the internet.Eg Azure,Gdrive,Aws.
+C-Hybrid Model:- it keeps some servers on the premises and extend some capabilities to the cloud,controls over sensitive assets in your 
+		 private infrastructure.Eg:-Fujitsu,Ducati etc.
+
+
+IAM(Identity and Access Management):-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is it:- IAM stands for Identity and Access Management,its a Global Service.
+	     It enables to create root user and it should not be used to share.
+	     Users are people within your organization and can be grouped.
+	     Groups only contain users not other groups,users dont have to belong to a group and user can belong to multiple
+	     groups.
+
+IAM Permissions: Users or groups can be assigned json documents called policies and these policies define the permissions of the users.
+		 In general in aws we assign least priviledge principle,that is dont give more permission that a user needs.
+	
+
+IAM Policies Structure:- It consisits of version: Policy language version(2012-10-17)
+			 Id: an identifier for the policy.
+			 Statement: one or more individual statements(req)
+
+Statement consists of: Sid: an identifier for the statement(optional)
+		       Effect: whether the statement allows or denies access(Allow,Deny)
+		       Principal: Account/user/role to which this policy applued to.
+		       Action:list of actions this policy allows or denies.
+		       Resource: list of resources to which the actions applied to.
+		       Condition: conditions for when this policy is in effect (optional).
+
+
+
+IAM – Password Policy:
+~~~~~~~~~~~~~~~~~~~~~~
+
+Strong passwords = higher security for your account
+• In AWS, you can setup a password policy:
+• Set a minimum password length
+• Require specific character types:
+• including uppercase letters
+• lowercase letters
+• numbers
+• non-alphanumeric characters
+• Allow all IAM users to change their own passwords
+• Require users to change their password after some time (password expiration)
+• Prevent password re-use
+
+Multi Factor Authentication - MFA:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+• Users have access to your account and can possibly change 
+configurations or delete resources in your AWS account
+• You want to protect your Root Accounts and IAM users
+• MFA = password you know + security device you own
+• Main benefit of MFA: 
+if a password is stolen or hacked, the account is not compromised.
+
+
+How can users access AWS ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+• To access AWS, you have three options:
+• AWS Management Console (protected by password + MFA)
+• AWS Command Line Interface (CLI): protected by access keys
+• AWS Software Developer Kit (SDK) - for code: protected by access keys
+• Access Keys are generated through the AWS Console
+• Users manage their own access keys
+• Access Keys are secret, just like a password. Don’t share them
+• Access Key ID ~= username
+• Secret Access Key ~= password
+
+
+IAM Guidelines & Best Practices:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+• Don’t use the root account except for AWS account setup
+• One physical user = One AWS user
+• Assign users to groups and assign permissions to groups
+• Create a strong password policy
+• Use and enforce the use of Multi Factor Authentication (MFA)
+• Create and use Roles for giving permissions to AWS services
+• Use Access Keys for Programmatic Access (CLI / SDK)
+• Audit permissions of your account with the IAM Credentials Report
+• Never share IAM users & Access Keys
+
+
+
